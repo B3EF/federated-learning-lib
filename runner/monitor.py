@@ -22,7 +22,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     if (args.config):
         with open(args.config) as config_file:
-            config = yaml.load(config_file.read(), Loader=yaml.Loader)
+            config = yaml.load(config_file.read(), Loader=yaml.SafeLoader)
         if 'timestamp' in config:
             machines = [config['agg_machine']] + config['party_machines']
             usernames = [config['agg_username']] + config['party_usernames']
