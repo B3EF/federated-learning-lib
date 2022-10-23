@@ -1,7 +1,7 @@
-scikit-learn==0.23.1
-keras==2.2.4
+scikit-learn==0.24.2
+keras==2.6.0rc3
 tensorflow==1.15
-numpy==1.17.4
+numpy==1.22.2
 pandas
 pytest
 PyYAML
