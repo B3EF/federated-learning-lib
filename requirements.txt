@@ -9,7 +9,7 @@ parse
 Flask
 jsonpickle
 requests
-scipy==1.4.1
+scipy==1.10.0rc1
 environs
 pathlib2
 diffprivlib
