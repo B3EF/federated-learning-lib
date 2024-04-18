@@ -21,7 +21,7 @@ opencv-python
 gym
 cloudpickle==1.3.0
 skorch
-torch==1.4.0
+torch==2.2.0
 h5py==2.10.0
 image
 aif360
