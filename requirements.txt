@@ -32,3 +32,6 @@ dm-tree
 GPUtil
 paramiko
 http://github.com/IBM/pycloudmessenger/archive/v0.7.1.tar.gz
+django>=4.2.28 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
